@@ -10,7 +10,7 @@ import SwiftUI
 enum Constants {
     // For screen sharing to work, this must match actual App Group container name
     // This is used to share user defaults between app and extension
-    static let appGroupName = "group.amazon.ivs.broadcasting"
+    static let appGroupName = "group.net.senoue.ivs.broadcasting"
 
     // Default values (ingestServer and streamKey can be set also later in the app)
     static let ingestServer = ""
