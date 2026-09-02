@@ -1,0 +1,1106 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    " AWS Privacy Policy." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " AWSプライバシーポリシー"
+          }
+        }
+      }
+    },
+    " Create an Amazon IVS Channel." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : " Amazon IVSチャンネルを作成する。"
+          }
+        }
+      }
+    },
+    "*Actual data usage may be higher or lower, depending on network conditions during the livestream." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "*実際のデータ使用量は、ライブ配信中のネットワーク状況により増減することがあります。"
+          }
+        }
+      }
+    },
+    "Actual data usage may be higher or lower, depending on network conditions during the livestream." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "実際のデータ使用量は、ライブ配信中のネットワーク状況により増減することがあります。"
+          }
+        }
+      }
+    },
+    "Amazon IVS Broadcast Demo" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amazon IVS 配信デモ"
+          }
+        }
+      }
+    },
+    "Auto" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動"
+          }
+        }
+      }
+    },
+    "Auto - " : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動 - "
+          }
+        }
+      }
+    },
+    "Auto-adjust bitrate" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ビットレートを自動調整"
+          }
+        }
+      }
+    },
+    "Auto-configuration" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動設定"
+          }
+        }
+      }
+    },
+    "Auto-configuration chooses the best video settings for your current internet connection. You can always run this test again from the app settings." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動設定は、現在のインターネット接続に最適な映像設定を選択します。このテストはアプリの設定からいつでも再実行できます。"
+          }
+        }
+      }
+    },
+    "Auto-orientation starts a stream in portrait or landscape mode depending on your device orientation." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動向き設定では、デバイスの向きに応じて縦向きまたは横向きで配信を開始します。"
+          }
+        }
+      }
+    },
+    "Auto-orientation starts a stream in portrait or landscape mode depending on your device orientation. This setting cannot be changed during a stream." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動向き設定では、デバイスの向きに応じて縦向きまたは横向きで配信を開始します。この設定は配信中に変更できません。"
+          }
+        }
+      }
+    },
+    "Automatically adjust the bitrate during a video stream. Turn on manually set bitrate limits to set the min and max bitrate." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配信中にビットレートを自動調整します。最小・最大ビットレートを指定するには「ビットレート制限を手動設定」をオンにしてください。"
+          }
+        }
+      }
+    },
+    "Automatically configure resolution, framerate, and bitrate based on current network conditions." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在のネットワーク状況に基づいて、解像度・フレームレート・ビットレートを自動設定します。"
+          }
+        }
+      }
+    },
+    "Back" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "戻る"
+          }
+        }
+      }
+    },
+    "Bitrate" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ビットレート"
+          }
+        }
+      }
+    },
+    "Bitrate, resolution, and framerate impact the quality of your video stream. Note that higher resolutions and framerates will require higher bitrates to avoid compression artifacts. The app will automatically adjust your bitrate based on network conditions." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ビットレート・解像度・フレームレートは映像の品質に影響します。高い解像度やフレームレートでは、圧縮ノイズを避けるためにより高いビットレートが必要になります。ビットレートはネットワーク状況に応じて自動調整されます。"
+          }
+        }
+      }
+    },
+    "Camera Access" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラへのアクセス"
+          }
+        }
+      }
+    },
+    "Camera Off" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラオフ"
+          }
+        }
+      }
+    },
+    "Camera off" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラオフ"
+          }
+        }
+      }
+    },
+    "Camera on" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラオン"
+          }
+        }
+      }
+    },
+    "Cancel" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "キャンセル"
+          }
+        }
+      }
+    },
+    "Cancel auto-configuration" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動設定をキャンセル"
+          }
+        }
+      }
+    },
+    "Close" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "閉じる"
+          }
+        }
+      }
+    },
+    "Configuration Summary" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定の概要"
+          }
+        }
+      }
+    },
+    "Connecting" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "接続中"
+          }
+        }
+      }
+    },
+    "Continue" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "続ける"
+          }
+        }
+      }
+    },
+    "Continue to App" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "アプリへ進む"
+          }
+        }
+      }
+    },
+    "Copy" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "コピー"
+          }
+        }
+      }
+    },
+    "Could not complete network test. Check your internet connection and try again." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ネットワークテストを完了できませんでした。インターネット接続を確認して、もう一度お試しください。"
+          }
+        }
+      }
+    },
+    "Create an Amazon IVS channel to get an ingest server and stream key." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amazon IVSチャンネルを作成して、インジェストサーバーとストリームキーを取得してください。"
+          }
+        }
+      }
+    },
+    "Create an Amazon IVS channel to get an ingest server and stream key. These values must be set before you can start streaming." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "Amazon IVSチャンネルを作成して、インジェストサーバーとストリームキーを取得してください。配信を開始する前に、これらの値を設定する必要があります。"
+          }
+        }
+      }
+    },
+    "Default camera" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デフォルトカメラ"
+          }
+        }
+      }
+    },
+    "Developer mode" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開発者モード"
+          }
+        }
+      }
+    },
+    "Don't reconnect" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再接続しない"
+          }
+        }
+      }
+    },
+    "Done" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "完了"
+          }
+        }
+      }
+    },
+    "Enable developer mode to show video and network stats for debugging." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開発者モードを有効にすると、デバッグ用の映像・ネットワーク統計が表示されます。"
+          }
+        }
+      }
+    },
+    "End stream" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配信終了"
+          }
+        }
+      }
+    },
+    "ERROR" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "エラー"
+          }
+        }
+      }
+    },
+    "Estimated data use" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "推定データ使用量"
+          }
+        }
+      }
+    },
+    "Estimated data use*" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "推定データ使用量*"
+          }
+        }
+      }
+    },
+    "Flip" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "反転"
+          }
+        }
+      }
+    },
+    "Get Started" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "はじめる"
+          }
+        }
+      }
+    },
+    "Hide debug info" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デバッグ情報を隠す"
+          }
+        }
+      }
+    },
+    "Hide this notice" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この通知を隠す"
+          }
+        }
+      }
+    },
+    "Ingest server" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "インジェストサーバー"
+          }
+        }
+      }
+    },
+    "Ingest Server" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "インジェストサーバー"
+          }
+        }
+      }
+    },
+    "Ingest server not set or invalid" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "インジェストサーバーが未設定か無効です"
+          }
+        }
+      }
+    },
+    "Invalid input. Framerate must be a number." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "入力が無効です。フレームレートは数値で入力してください。"
+          }
+        }
+      }
+    },
+    "Invalid input. Minimum bitrate must be a number." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "入力が無効です。最小ビットレートは数値で入力してください。"
+          }
+        }
+      }
+    },
+    "Invalid input. Target bitrate must be a number." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "入力が無効です。目標ビットレートは数値で入力してください。"
+          }
+        }
+      }
+    },
+    "Invalid input./n Maximum bitrate must be a number." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "入力が無効です。最大ビットレートは数値で入力してください。"
+          }
+        }
+      }
+    },
+    "Invalid resolution format. Must be 'width x height' where width and height is a number" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解像度の形式が無効です。「幅x高さ」の形式で、幅と高さは数値で入力してください"
+          }
+        }
+      }
+    },
+    "Invite to watch" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "視聴に招待"
+          }
+        }
+      }
+    },
+    "Keep your stream key secret. Anyone who has it can stream to your Amazon IVS channel." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ストリームキーは秘密にしてください。キーを知っている人は誰でもあなたのAmazon IVSチャンネルに配信できます。"
+          }
+        }
+      }
+    },
+    "Landscape" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "横向き"
+          }
+        }
+      }
+    },
+    "Lets the demo capture audio using the camera" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マイクを使って音声を取得できるようにします"
+          }
+        }
+      }
+    },
+    "Lets the demo capture video using the camera" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カメラを使って映像を取得できるようにします"
+          }
+        }
+      }
+    },
+    "Manually set bitrate limits" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ビットレート制限を手動設定"
+          }
+        }
+      }
+    },
+    "MAXIMUM BITRATE" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最大ビットレート"
+          }
+        }
+      }
+    },
+    "Microphone Access" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "マイクへのアクセス"
+          }
+        }
+      }
+    },
+    "MINIMUM BITRATE" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "最小ビットレート"
+          }
+        }
+      }
+    },
+    "Mute" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミュート"
+          }
+        }
+      }
+    },
+    "NETWORK ISSUE" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ネットワークの問題"
+          }
+        }
+      }
+    },
+    "Not set" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "未設定"
+          }
+        }
+      }
+    },
+    "Offline" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "オフライン"
+          }
+        }
+      }
+    },
+    "Orientation" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面の向き"
+          }
+        }
+      }
+    },
+    "Orientation cannot be changed when using a custom resolution. Change the orientation by setting a different resolution." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カスタム解像度の使用中は画面の向きを変更できません。別の解像度を設定して向きを変更してください。"
+          }
+        }
+      }
+    },
+    "Paste from clipboard" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "クリップボードからペースト"
+          }
+        }
+      }
+    },
+    "Playback URL" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再生URL"
+          }
+        }
+      }
+    },
+    "Portrait" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "縦向き"
+          }
+        }
+      }
+    },
+    "Reconnecting" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再接続中"
+          }
+        }
+      }
+    },
+    "Reconnecting..." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "再接続中…"
+          }
+        }
+      }
+    },
+    "Resolution and framerate" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解像度とフレームレート"
+          }
+        }
+      }
+    },
+    "Rerun auto-configuration" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動設定を再実行"
+          }
+        }
+      }
+    },
+    "Return to settings" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定に戻る"
+          }
+        }
+      }
+    },
+    "Run auto-config" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動設定を実行"
+          }
+        }
+      }
+    },
+    "Run auto-configuration" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "自動設定を実行"
+          }
+        }
+      }
+    },
+    "Settings" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "設定"
+          }
+        }
+      }
+    },
+    "Share screen" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面を共有"
+          }
+        }
+      }
+    },
+    "Show debug info" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "デバッグ情報を表示"
+          }
+        }
+      }
+    },
+    "Skip this step" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "この手順をスキップ"
+          }
+        }
+      }
+    },
+    "Square" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "正方形"
+          }
+        }
+      }
+    },
+    "Start" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "開始"
+          }
+        }
+      }
+    },
+    "Stop sharing" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "共有を停止"
+          }
+        }
+      }
+    },
+    "Stream key" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ストリームキー"
+          }
+        }
+      }
+    },
+    "Stream Key" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ストリームキー"
+          }
+        }
+      }
+    },
+    "SUCCESS" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "成功"
+          }
+        }
+      }
+    },
+    "TARGET BITRATE" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "目標ビットレート"
+          }
+        }
+      }
+    },
+    "Testing network..." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ネットワークをテスト中…"
+          }
+        }
+      }
+    },
+    "The camera is disabled while you are sharing your screen. Stop sharing to enable it again." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面共有中はカメラが無効になります。共有を停止すると再び有効になります。"
+          }
+        }
+      }
+    },
+    "The connection to the server was lost. The app will automatically try to reconnect." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "サーバーへの接続が失われました。自動的に再接続を試みます。"
+          }
+        }
+      }
+    },
+    "The source framerate of your video stream. This cannot be changed during a stream." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "映像ストリームのソースフレームレートです。配信中は変更できません。"
+          }
+        }
+      }
+    },
+    "The source resolution of your video stream. This cannot be changed during a stream." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "映像ストリームのソース解像度です。配信中は変更できません。"
+          }
+        }
+      }
+    },
+    "The target bitrate (or initial bitrate) of the stream in Kbps. Must be a number between 1 and 8500." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ストリームの目標（初期）ビットレート（Kbps）。1〜8500の数値で指定してください。"
+          }
+        }
+      }
+    },
+    "The test is taking longer than usual." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "テストに通常より時間がかかっています。"
+          }
+        }
+      }
+    },
+    "These are the recommended encoder settings based on current network conditions. You can edit these values manually in the App settings." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "現在のネットワーク状況に基づく推奨エンコーダー設定です。これらの値はアプリの設定から手動で変更できます。"
+          }
+        }
+      }
+    },
+    "This application does not store any data captured from your phone." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このアプリは、お使いのスマートフォンから取得したデータを保存しません。"
+          }
+        }
+      }
+    },
+    "This demo application broadcasts your iPhone’s camera or screen to an Amazon IVS Channel." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "このデモアプリは、iPhoneのカメラまたは画面をAmazon IVSチャンネルに配信します。"
+          }
+        }
+      }
+    },
+    "To continue, provide the following permissions" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "続行するには、以下の権限を許可してください"
+          }
+        }
+      }
+    },
+    "Type a resolution in width x height pixel format. Width and height must both be between 160 and 1920, and the total pixel count (width x height) must be under 2,072,600." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "解像度を「幅x高さ」のピクセル形式で入力してください。幅と高さはそれぞれ160〜1920で、総ピクセル数（幅×高さ）は2,072,600未満である必要があります。"
+          }
+        }
+      }
+    },
+    "Type the number of frames per second (fps). Must be a whole number between 10 and 60." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "フレームレート（fps）を入力してください。10〜60の整数で指定します。"
+          }
+        }
+      }
+    },
+    "Unknown test result status!" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "不明なテスト結果ステータスです"
+          }
+        }
+      }
+    },
+    "Unmute" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ミュート解除"
+          }
+        }
+      }
+    },
+    "Use custom framerate" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カスタムフレームレートを使用"
+          }
+        }
+      }
+    },
+    "Use custom resolution" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "カスタム解像度を使用"
+          }
+        }
+      }
+    },
+    "Video quality" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画質"
+          }
+        }
+      }
+    },
+    "View source code" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "ソースコードを見る"
+          }
+        }
+      }
+    },
+    "Your stream must be restarted" : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "配信の再起動が必要です"
+          }
+        }
+      }
+    },
+    "Your stream will go offline for a few moments while screen sharing is started." : {
+      "localizations" : {
+        "ja" : {
+          "stringUnit" : {
+            "state" : "translated",
+            "value" : "画面共有の開始中、配信は一時的にオフラインになります。"
+          }
+        }
+      }
+    }
+  },
+  "version" : "1.0"
+}

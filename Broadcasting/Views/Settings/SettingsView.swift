@@ -58,14 +58,14 @@ struct SettingsView: View {
                             }
                         }
                         SettingsEntry(title: "Orientation",
-                                      value: viewModel.configurations.customOrientation.rawValue.capitalized,
+                                      value: NSLocalizedString(viewModel.configurations.customOrientation.rawValue.capitalized, comment: ""),
                                       isDisabled: viewModel.sessionIsRunning) {
                             withAnimation {
                                 isResolutionAndFrameratePresent.toggle()
                             }
                         }
                         SettingsEntry(title: "Bitrate",
-                                      value: "\(viewModel.configurations.activeVideoConfiguration.useAutoBitrate ? "Auto - " : "")\(viewModel.formattedInitialBitrate)") {
+                                      value: "\(viewModel.configurations.activeVideoConfiguration.useAutoBitrate ? NSLocalizedString("Auto - ", comment: "") : "")\(viewModel.formattedInitialBitrate)") {
                             withAnimation {
                                 isBitratePresent.toggle()
                             }
@@ -76,21 +76,21 @@ struct SettingsView: View {
 
                     VStack(spacing: 0) {
                         SettingsEntry(title: "Ingest server",
-                                      value: viewModel.ingestServer.isEmpty ? "Not set" : viewModel.ingestServer,
+                                      value: viewModel.ingestServer.isEmpty ? NSLocalizedString("Not set", comment: "") : viewModel.ingestServer,
                                       isDisabled: viewModel.sessionIsRunning) {
                             withAnimation {
                                 isServerTextInputPresent.toggle()
                             }
                         }
                         SettingsEntry(title: "Stream key",
-                                      value: viewModel.streamKey.isEmpty ? "Not set" : "••••••••••••",
+                                      value: viewModel.streamKey.isEmpty ? NSLocalizedString("Not set", comment: "") : "••••••••••••",
                                       isDisabled: viewModel.sessionIsRunning) {
                             withAnimation {
                                 isKeyTextInputPresent.toggle()
                             }
                         }
                         SettingsEntry(title: "Playback URL",
-                                      value: viewModel.playbackUrl.isEmpty ? "Not set" : viewModel.playbackUrl) {
+                                      value: viewModel.playbackUrl.isEmpty ? NSLocalizedString("Not set", comment: "") : viewModel.playbackUrl) {
                             withAnimation {
                                 isPlaybackUrlTextInputPresent.toggle()
                             }
@@ -98,8 +98,8 @@ struct SettingsView: View {
                     }
 
                     TextWithHyperlink(
-                        leadingText: "Create an Amazon IVS channel to get an ingest server and stream key. These values must be set before you can start streaming.",
-                        urlLabel: " Create an Amazon IVS Channel.",
+                        leadingText: NSLocalizedString("Create an Amazon IVS channel to get an ingest server and stream key. These values must be set before you can start streaming.", comment: ""),
+                        urlLabel: NSLocalizedString(" Create an Amazon IVS Channel.", comment: ""),
                         url: "https://aws.amazon.com/ivs"
                     )
                     .modifier(FooterText())
@@ -152,7 +152,7 @@ struct SettingsView: View {
             if isKeyTextInputPresent {
                 TextInputView(
                     title: "Stream Key",
-                    placeholder: "Stream key",
+                    placeholder: NSLocalizedString("Stream key", comment: ""),
                     description: "Keep your stream key secret. Anyone who has it can stream to your Amazon IVS channel.",
                     viewModel: viewModel,
                     textBinding: $viewModel.streamKey) {

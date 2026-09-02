@@ -21,7 +21,7 @@ struct AutoConfiguration: View {
     @State private var isWarningPresent: Bool = false
     @State private var warningTimeout: Int = 12
     @State private var isErrorPresent: Bool = false
-    @State private var errorMessage: String = "Could not complete network test. Check your internet connection and try again."
+    @State private var errorMessage: String = NSLocalizedString("Could not complete network test. Check your internet connection and try again.", comment: "")
 
     @State private var timer: Timer?
 
@@ -139,7 +139,7 @@ struct AutoConfiguration: View {
             if isKeyTextInputPresent {
                 TextInputView(
                     title: "Stream Key",
-                    placeholder: "Stream key",
+                    placeholder: NSLocalizedString("Stream key", comment: ""),
                     description: "Keep your stream key secret. Anyone who has it can stream to your Amazon IVS channel.",
                     viewModel: viewModel,
                     textBinding: $viewModel.streamKey) {
@@ -156,7 +156,7 @@ struct AutoConfiguration: View {
                       type: .error)
         .notification(isPresent: $isWarningPresent,
                       title: "NETWORK ISSUE",
-                      message: "The test is taking longer than usual.",
+                      message: NSLocalizedString("The test is taking longer than usual.", comment: ""),
                       height: 55,
                       type: .warning)
         .padding(.horizontal, 16)

@@ -8,9 +8,9 @@
 import SwiftUI
 
 struct TextInputView: View {
-    var title: String
+    var title: LocalizedStringKey
     var placeholder: String = ""
-    var description: String = ""
+    var description: LocalizedStringKey = ""
     @ObservedObject var viewModel: BroadcastViewModel
     @Binding var textBinding: String
     var dismissAction: () -> Void

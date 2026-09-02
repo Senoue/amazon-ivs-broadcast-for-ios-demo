@@ -9,7 +9,7 @@ import SwiftUI
 
 extension View {
     func notification(isPresent: Binding<Bool>,
-                      title: String,
+                      title: LocalizedStringKey,
                       message: String,
                       height: CGFloat,
                       type: NotificationModifier.NotificationType) -> some View {
@@ -28,7 +28,7 @@ struct NotificationModifier: ViewModifier {
 
     @Binding var isPresent: Bool
 
-    var title: String = ""
+    var title: LocalizedStringKey = ""
     var message: String = ""
     var height: CGFloat = 55
     var type: NotificationType

@@ -66,7 +66,7 @@ struct ConfigurationSummary: View {
 }
 
 struct ConfigurationRow: View {
-    var title: String
+    var title: LocalizedStringKey
     var value: String
 
     var body: some View {

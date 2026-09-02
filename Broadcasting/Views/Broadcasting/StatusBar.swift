@@ -30,7 +30,7 @@ struct StatusBar: View {
         } else {
             switch viewModel.broadcastDelegate.sessionState {
             case .connecting:
-                Text(viewModel.isReconnecting ? "Reconnecting" : "Connecting")
+                (viewModel.isReconnecting ? Text("Reconnecting") : Text("Connecting"))
                     .padding(.horizontal, 8)
                     .foregroundColor(.black)
                     .background(Constants.lightGray)

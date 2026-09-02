@@ -8,12 +8,12 @@
 import SwiftUI
 
 struct HeaderView: View {
-    var title: String = ""
+    var title: LocalizedStringKey = ""
     var leftButtonAction: () -> Void
-    var leftButtonTitle = "Back"
+    var leftButtonTitle: LocalizedStringKey = "Back"
     var leftButtonIcon = "chevron.left"
     var rightButtonAction: () -> Void = {}
-    var rightButtonTitle: String?
+    var rightButtonTitle: LocalizedStringKey?
 
     var body: some View {
         HStack {

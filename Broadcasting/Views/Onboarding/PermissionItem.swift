@@ -8,8 +8,8 @@
 import SwiftUI
 
 struct PermissionItem: View {
-    var title: String
-    var description: String
+    var title: LocalizedStringKey
+    var description: LocalizedStringKey
     @Binding var isOn: Bool
     var action: () -> Void
 

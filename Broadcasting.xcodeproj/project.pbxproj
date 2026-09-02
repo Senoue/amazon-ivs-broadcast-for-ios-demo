@@ -44,6 +44,8 @@
 		5C6E925826721D9400D80282 /* BroadcastingApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E925726721D9400D80282 /* BroadcastingApp.swift */; };
 		5C6E925A26721D9400D80282 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E925926721D9400D80282 /* ContentView.swift */; };
 		5C6E925C26721D9500D80282 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6E925B26721D9500D80282 /* Assets.xcassets */; };
+		AA00000126B0000100000001 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = AA00000026B0000000000001 /* Localizable.xcstrings */; };
+		AA00000326B0000300000001 /* InfoPlist.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = AA00000226B0000200000001 /* InfoPlist.xcstrings */; };
 		5C6E925F26721D9500D80282 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5C6E925E26721D9500D80282 /* Preview Assets.xcassets */; };
 		5C6E926E267222D900D80282 /* Broadcast.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C6E926D267222D900D80282 /* Broadcast.swift */; };
 		5C746E23268B569300F65C83 /* MonitorNetwork.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C746E22268B569300F65C83 /* MonitorNetwork.swift */; };
@@ -127,6 +129,8 @@
 		5C6E925726721D9400D80282 /* BroadcastingApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BroadcastingApp.swift; sourceTree = "<group>"; };
 		5C6E925926721D9400D80282 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		5C6E925B26721D9500D80282 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AA00000026B0000000000001 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = Localizable.xcstrings; sourceTree = "<group>"; };
+		AA00000226B0000200000001 /* InfoPlist.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; path = InfoPlist.xcstrings; sourceTree = "<group>"; };
 		5C6E925E26721D9500D80282 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		5C6E926026721D9500D80282 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C6E926726721EFF00D80282 /* AmazonIVSBroadcast-iOS.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; name = "AmazonIVSBroadcast-iOS.xcframework"; path = "../../../Desktop/AmazonIVSBroadcast-iOS.xcframework"; sourceTree = "<group>"; };
@@ -322,6 +326,8 @@
 				5C4BD226267363A900A6E2DB /* Views */,
 				5C119EFF26789CD500738E92 /* Helpers */,
 				5C6E925B26721D9500D80282 /* Assets.xcassets */,
+				AA00000026B0000000000001 /* Localizable.xcstrings */,
+				AA00000226B0000200000001 /* InfoPlist.xcstrings */,
 				5C3A8C1426A003E900CCD9F5 /* Fonts */,
 				5C6E926026721D9500D80282 /* Info.plist */,
 				5C6E925D26721D9500D80282 /* Preview Content */,
@@ -426,6 +432,7 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ja,
 				Base,
 			);
 			mainGroup = 5C6E924B26721D9400D80282;
@@ -451,6 +458,8 @@
 				5C3A8C1A26A004BA00CCD9F5 /* AmazonEmber-Medium.ttf in Resources */,
 				5C3A8C1C26A0099700CCD9F5 /* JetBrainsMono-Medium.ttf in Resources */,
 				5C6E925C26721D9500D80282 /* Assets.xcassets in Resources */,
+				AA00000126B0000100000001 /* Localizable.xcstrings in Resources */,
+				AA00000326B0000300000001 /* InfoPlist.xcstrings in Resources */,
 				5C3A8C1926A004BA00CCD9F5 /* AmazonEmber-Regular.ttf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

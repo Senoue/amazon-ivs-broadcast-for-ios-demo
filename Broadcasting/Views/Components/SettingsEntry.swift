@@ -10,7 +10,7 @@ import SwiftUI
 struct SettingsEntry: View {
     @Environment(\.verticalSizeClass) var verticalSizeClass: UserInterfaceSizeClass?
 
-    var title: String
+    var title: LocalizedStringKey
     var value: String?
     var isDisabled: Bool
     var isSwitch: Bool
@@ -20,7 +20,7 @@ struct SettingsEntry: View {
     @Binding var isOn: Bool
     var action: () -> Void
 
-    init(title: String,
+    init(title: LocalizedStringKey,
          value: String? = nil,
          isDisabled: Bool = false,
          isSwitch: Bool = false,

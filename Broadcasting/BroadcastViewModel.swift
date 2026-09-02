@@ -197,7 +197,7 @@ class BroadcastViewModel: NSObject, ObservableObject {
 
     func runAutoConfig(progressUpdate: ((_ progress: Float) -> Void)? = nil, _ callback: @escaping (Error?) -> Void) {
         guard let url = URL(string: ingestServer) else {
-            callback(NSError(domain: "", code: 0, userInfo: [NSLocalizedDescriptionKey: "Ingest server not set or invalid"]))
+            callback(NSError(domain: "", code: 0, userInfo: [NSLocalizedDescriptionKey: NSLocalizedString("Ingest server not set or invalid", comment: "")]))
             return
         }
 
@@ -221,7 +221,7 @@ class BroadcastViewModel: NSObject, ObservableObject {
                 case .error:
                     callback(testResult.error)
                 @unknown default:
-                    callback(NSError(domain: "", code: 0, userInfo: [NSLocalizedDescriptionKey: "Unknown test result status!"]))
+                    callback(NSError(domain: "", code: 0, userInfo: [NSLocalizedDescriptionKey: NSLocalizedString("Unknown test result status!", comment: "")]))
                 }
         })
     }

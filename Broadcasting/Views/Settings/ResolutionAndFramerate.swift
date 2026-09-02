@@ -107,7 +107,7 @@ struct ResolutionAndFramerate: View {
                                     let size = CGSize(width: CGFloat(widthString.floatValue), height: CGFloat(heightString.floatValue))
                                     errorMessage = viewModel.configurations.updateResolution(for: size)?.localizedDescription ?? ""
                                 } else {
-                                    errorMessage = "Invalid resolution format. Must be 'width x height' where width and height is a number"
+                                    errorMessage = NSLocalizedString("Invalid resolution format. Must be 'width x height' where width and height is a number", comment: "")
                                 }
                             }
                         } else {
@@ -124,11 +124,13 @@ struct ResolutionAndFramerate: View {
                             }
                         }
                     }
-                    Text(
-                        useCustomResolution ?
-                            "Type a resolution in width x height pixel format. Width and height must both be between 160 and 1920, and the total pixel count (width x height) must be under 2,072,600." :
-                            "The source resolution of your video stream. This cannot be changed during a stream."
-                    )
+                    Group {
+                        if useCustomResolution {
+                            Text("Type a resolution in width x height pixel format. Width and height must both be between 160 and 1920, and the total pixel count (width x height) must be under 2,072,600.")
+                        } else {
+                            Text("The source resolution of your video stream. This cannot be changed during a stream.")
+                        }
+                    }
                     .modifier(FooterText())
 
                     VStack(spacing: 0) {
@@ -163,7 +165,7 @@ struct ResolutionAndFramerate: View {
                                 if let new = Int(newFramerate) {
                                     errorMessage = viewModel.configurations.setFramerate(to: new)?.localizedDescription ?? ""
                                 } else {
-                                    errorMessage = "Invalid input. Framerate must be a number."
+                                    errorMessage = NSLocalizedString("Invalid input. Framerate must be a number.", comment: "")
                                 }
                             }
                         } else {
@@ -196,25 +198,30 @@ struct ResolutionAndFramerate: View {
                             }
                         }
                     }
-                    Text(
-                        useCustomFramerate ?
-                            "Type the number of frames per second (fps). Must be a whole number between 10 and 60." :
-                            "The source framerate of your video stream. This cannot be changed during a stream."
-                    )
+                    Group {
+                        if useCustomFramerate {
+                            Text("Type the number of frames per second (fps). Must be a whole number between 10 and 60.")
+                        } else {
+                            Text("The source framerate of your video stream. This cannot be changed during a stream.")
+                        }
+                    }
                     .modifier(FooterText())
 
                     SettingsEntry(
                         title: "Orientation",
-                        value: viewModel.configurations.customOrientation.rawValue.capitalized
+                        value: NSLocalizedString(viewModel.configurations.customOrientation.rawValue.capitalized, comment: "")
                     ) {
                         withAnimation {
                             isOrientationPresent.toggle()
                         }
                     }
-                    Text(useCustomResolution ?
-                            "Orientation cannot be changed when using a custom resolution. Change the orientation by setting a different resolution." :
-                            "Auto-orientation starts a stream in portrait or landscape mode depending on your device orientation. This setting cannot be changed during a stream."
-                    )
+                    Group {
+                        if useCustomResolution {
+                            Text("Orientation cannot be changed when using a custom resolution. Change the orientation by setting a different resolution.")
+                        } else {
+                            Text("Auto-orientation starts a stream in portrait or landscape mode depending on your device orientation. This setting cannot be changed during a stream.")
+                        }
+                    }
                     .modifier(FooterText())
                 }
                 .padding(.vertical, 75)

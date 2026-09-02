@@ -20,7 +20,7 @@ struct CameraSelection: View {
                 VStack(spacing: 0) {
                     ForEach(viewModel.availableCameraDevices, id: \.urn) { device in
                         SettingsEntry(
-                            title: device.friendlyName,
+                            title: LocalizedStringKey(device.friendlyName),
                             isSwitch: true,
                             useCheckmark: true,
                             isOn: .constant(viewModel.defaultCameraUrn == device.urn)

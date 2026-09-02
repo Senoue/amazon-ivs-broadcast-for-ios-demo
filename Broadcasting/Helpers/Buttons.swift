@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct PrimaryButton: View {
-    var title: String
+    var title: LocalizedStringKey
     @Binding var isEnabled: Bool
     var action: () -> Void
 
-    init(title: String, isEnabled: Binding<Bool> = .constant(true), action: @escaping () -> Void) {
+    init(title: LocalizedStringKey, isEnabled: Binding<Bool> = .constant(true), action: @escaping () -> Void) {
         self.title = title
         self._isEnabled = isEnabled
         self.action = action
@@ -35,7 +35,7 @@ struct PrimaryButton: View {
 }
 
 struct DisabledPrimaryButton: View {
-    var title: String
+    var title: LocalizedStringKey
     var background: Color = .black
 
     var body: some View {
@@ -59,7 +59,7 @@ struct DisabledPrimaryButton: View {
 }
 
 struct SecondaryButton: View {
-    var title: String
+    var title: LocalizedStringKey
     var action: () -> Void
 
     var body: some View {
@@ -76,7 +76,7 @@ struct SecondaryButton: View {
 }
 
 struct DebugButton: View {
-    var title: String
+    var title: LocalizedStringKey
     var color: Color = .black
     var background: Color = Constants.yellow
     var action: () -> Void
@@ -98,7 +98,7 @@ struct DebugButton: View {
 }
 
 struct ControlButton: View {
-    var title: String
+    var title: LocalizedStringKey
     var action: () -> Void
     var icon: String
     var iconColor: Color = .white
@@ -137,7 +137,7 @@ struct ControlButton: View {
 }
 
 struct SimpleButton: View {
-    var title: String
+    var title: LocalizedStringKey
     var height: CGFloat = 10
     var maxWidth: CGFloat = .infinity
     var font: Font = Constants.fAppRegular

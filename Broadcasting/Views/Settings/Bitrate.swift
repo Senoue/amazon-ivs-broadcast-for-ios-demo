@@ -72,7 +72,7 @@ struct Bitrate: View {
                         if let bitrate = Int(targetBitrate) {
                             errorMessage = viewModel.configurations.setVideoBitrate(bitrate)?.localizedDescription ?? ""
                         } else {
-                            errorMessage = "Invalid input. Target bitrate must be a number."
+                            errorMessage = NSLocalizedString("Invalid input. Target bitrate must be a number.", comment: "")
                         }
                         getDataUse()
                     }
@@ -103,7 +103,7 @@ struct Bitrate: View {
                             if let bitrate = Int(minBitrate) {
                                 errorMessage = viewModel.configurations.setMinVideoBitrate(bitrate)?.localizedDescription ?? ""
                             } else {
-                                errorMessage = "Invalid input. Minimum bitrate must be a number."
+                                errorMessage = NSLocalizedString("Invalid input. Minimum bitrate must be a number.", comment: "")
                             }
                         }
 
@@ -120,7 +120,7 @@ struct Bitrate: View {
                             if let bitrate = Int(maxBitrate) {
                                 errorMessage = viewModel.configurations.setMaxVideoBitrate(bitrate)?.localizedDescription ?? ""
                             } else {
-                                errorMessage = "Invalid input./n Maximum bitrate must be a number."
+                                errorMessage = NSLocalizedString("Invalid input./n Maximum bitrate must be a number.", comment: "")
                             }
                         }
 

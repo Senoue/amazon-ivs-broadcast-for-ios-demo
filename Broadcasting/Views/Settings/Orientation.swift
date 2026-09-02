@@ -45,7 +45,7 @@ struct OrientationView: View {
                 VStack(spacing: 0) {
                     ForEach(Orientation.allCases, id: \.self) { orientation in
                         SettingsEntry(
-                            title: orientation.rawValue.capitalized,
+                            title: LocalizedStringKey(orientation.rawValue.capitalized),
                             isSwitch: true,
                             useCheckmark: true,
                             isOn: getBindingFor(orientation)

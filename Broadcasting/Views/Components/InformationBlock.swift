@@ -12,8 +12,8 @@ struct InformationBlock: View {
     var iconSize: CGFloat = 27
     var iconColor: Color = .white
     var withIconFrame: Bool = true
-    var title: String
-    var description: String
+    var title: LocalizedStringKey
+    var description: LocalizedStringKey
     var height: CGFloat
 
     var body: some View {

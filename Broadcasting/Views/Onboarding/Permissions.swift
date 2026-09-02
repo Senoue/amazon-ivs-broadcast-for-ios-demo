@@ -91,8 +91,8 @@ struct Permissions: View {
                 )
 
                 TextWithHyperlink(
-                    leadingText: "This application does not store any data captured from your phone.",
-                    urlLabel: " AWS Privacy Policy.",
+                    leadingText: NSLocalizedString("This application does not store any data captured from your phone.", comment: ""),
+                    urlLabel: NSLocalizedString(" AWS Privacy Policy.", comment: ""),
                     url: "https://aws.amazon.com/privacy",
                     urlColor: Constants.lightGray,
                     textAlignment: .center,

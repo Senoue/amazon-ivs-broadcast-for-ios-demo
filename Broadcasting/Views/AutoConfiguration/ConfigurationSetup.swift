@@ -42,19 +42,19 @@ struct ConfigurationSetup: View {
                         .padding(.bottom, 16)
 
                     SettingsEntry(title: "Ingest server",
-                                  value: viewModel.ingestServer.isEmpty ? "Not set" : viewModel.ingestServer,
+                                  value: viewModel.ingestServer.isEmpty ? NSLocalizedString("Not set", comment: "") : viewModel.ingestServer,
                                   background: Constants.backgroundGrayLight) {
                         isServerTextInputPresent.toggle()
                     }
                     SettingsEntry(title: "Stream key",
-                                  value: viewModel.streamKey.isEmpty ? "Not set" : "••••••••••••",
+                                  value: viewModel.streamKey.isEmpty ? NSLocalizedString("Not set", comment: "") : "••••••••••••",
                                   background: Constants.backgroundGrayLight) {
                         isKeyTextInputPresent.toggle()
                     }
 
                     TextWithHyperlink(
-                        leadingText: "Create an Amazon IVS channel to get an ingest server and stream key.",
-                        urlLabel: " Create an Amazon IVS Channel.",
+                        leadingText: NSLocalizedString("Create an Amazon IVS channel to get an ingest server and stream key.", comment: ""),
+                        urlLabel: NSLocalizedString(" Create an Amazon IVS Channel.", comment: ""),
                         url: "https://docs.aws.amazon.com/ivs/latest/userguide/getting-started-create-channel.html"
                     )
                     .modifier(FooterText())
